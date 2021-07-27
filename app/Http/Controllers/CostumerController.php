@@ -14,7 +14,7 @@ class CostumerController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**

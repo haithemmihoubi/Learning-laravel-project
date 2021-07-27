@@ -10,7 +10,8 @@ class Authenticate extends Middleware
 
     protected function redirectTo($request)
     {
-        if (! $request->expectsJson()) {
+
+
             if (Auth::user()->admin) {
                 return '/admin';
             }
@@ -22,5 +23,5 @@ class Authenticate extends Middleware
 
 
 
-    }
+
 }
